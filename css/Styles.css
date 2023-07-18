@@ -1,0 +1,44 @@
+html,body{
+    margin: 0%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+/*================================================*/
+/*                   Global                       */
+a{
+    text-decoration: none;
+}
+.flex-row{
+    display: flex;
+}
+
+/*================================================*/
+
+
+/*================================================*/
+/*                   NAVEBAR                      */
+
+
+.navbar {
+    background-color: white;
+    padding: 0 2rem;
+    height: 0rem;
+    min-height: 10vh;
+    overflow: hidden;
+}
+
+
+.navbar .nav-logo a {
+    font-size: 1.6rem;
+    padding: 1rem 0;
+    text-decoration: none;
+    text-align: center;
+}
+
+.flex-row{
+    display: flex;
+}
+
+/*================================================*/
+
