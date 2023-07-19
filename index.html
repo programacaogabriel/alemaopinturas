@@ -11,6 +11,7 @@
 
     <link rel="stylesheet" href="./css/Styles.css">
     <link rel="stylesheet" href="./css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js">
 
     <!---------------------------------------->
 </head>
@@ -18,7 +19,13 @@
 <body>
     <!-----------Navebar------------------->
     <nav class="navbar">
-        <div class="navbar-menu flex-row">
+        <!-----------Menu Hambuguer------------------->
+    <button class="navbar_button" onclick="openNav()"><i class="fa-solid fa-bars fa-2x"></i></button>
+    <div id="close" class="overlay">
+        <a href="javascript:void(0)" class="closeBtn" onclick="closeNav()">&times;</a>
+     </div>
+
+           <div class="navbar-menu flex-row">
             <div class="nav-logo">
                 <a href="" class="text-gray">Alemão Pinturas <br> Pequenos Reparos</a>
             </div>
@@ -29,15 +36,15 @@
                     </li>
 
                     <li class="navbar_link">
-                        <a href="#Trabalhos">Trabalhos</a>
+                        <a href="##trabalhos">Trabalhos</a>
                     </li>
 
                     <li class="navbar_link">
-                        <a href="#Especialização">Especialização</a>
+                        <a href="#especializacao">Especialização</a>
                     </li>
 
                     <li class="navbar_link">
-                        <a href="#Fale Conosco">Fale Conosco</a>
+                        <a href="#faleConosco">Fale Conosco</a>
                     </li>
                 </ul>
             </div>
@@ -51,12 +58,28 @@
 
     </nav>
 
+    <main>
+        <section id="trabalhos" class="secao">
+            <div>
+                <h1>Testador</h1></div>
+        </section>
 
+        <section id="especializacao" class="secao">
+            <div>
+                <h1>Testador</h1>
+            </div>
+        </section>
 
+        <section id="faleConosco" class="secao">
+            <div>
+                <h1>Testador</h1>
+            </div>
+        </section>
+    </main>
 
     <!-----------***************----------->
 
-
+     
 
 
 
