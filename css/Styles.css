@@ -128,7 +128,80 @@ ul {
         left: 0;
         overflow-x: hidden;
         transition: all 0.7s;
+        border-end-end-radius: 10%;
     }
+
+    .overlay-content{
+        text-align: center;
+        justify-content: center;
+        top: 25%;
+        margin-top: 20px;
+        margin-left: 65%;
+               
+    }
+
+    .overlay-content a{
+        padding: 16px;
+        text-decoration: none;
+        color: #0062b9;
+        display: block;
+        font-size: 32px;
+        transition: 0.3s;
+    }
+
+    .overlay-content a:hover, .overlay-content a:focus{
+        color: black;
+    }
+    
+    .closeBtn{
+        text-align: center;
+        justify-content: center;
+        top: 25%;
+        margin-top: 55px;
+        margin-left: 80%;
+        font-size: 60px;
+    }
+    .closeBtn:hover{
+        cursor: pointer;
+       color: black;
+
+    }
+
+    
+@media only screen and (max-width: 600px) {
+    .navbar .navbar_itens .navbar_link {
+        display: none;
+    }
+
+    
+    .closeBtn{
+        font-size: 50px;
+    }
+
+
+    .overlay-content a{
+        font-size: 25px;
+    }
+
+}
+
+
+@media only screen and (max-width: 450px) {
+    .navbar .navbar_itens .navbar_link {
+        display: none;
+    }
+
+    .closeBtn{
+        font-size: 40px;
+    }
+
+
+    .overlay-content a{
+        font-size: 20px;
+    }
+
+}
+
 }
 
 
