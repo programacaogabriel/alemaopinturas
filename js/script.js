@@ -1,7 +1,7 @@
 function openNav(params) {
-    alert("Teste")
+    document.getElementById("closed").style.width="100%"
 }
 
 function closeNav(params) {
-    alert("Teste")
+    document.getElementById("closed").style.width="0%"
 }
