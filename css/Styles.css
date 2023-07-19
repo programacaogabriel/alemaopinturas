@@ -92,7 +92,8 @@ ul {
     .navbar_button {
         display: none;
     }
-    .overlay{
+
+    .overlay {
         display: none;
     }
 }
@@ -111,15 +112,15 @@ ul {
         cursor: pointer;
     }
 
-    .navbar_button i{
+    .navbar_button i {
         color: white;
     }
 
-    .overlay{
+    .overlay {
         width: 0%;
         height: 100%;
         background-size: 100%;
-        background-image: url(../assets/colorful-paint-trails-white-background.jpg);
+        background-image: url(../assets/menu_hamburguer.jpg);
         background-repeat: no-repeat;
         position: fixed;
         z-index: 9;
@@ -131,29 +132,31 @@ ul {
         border-end-end-radius: 10%;
     }
 
-    .overlay-content{
+    .overlay-content {
         text-align: center;
         justify-content: center;
         top: 25%;
         margin-top: 20px;
         margin-left: 65%;
-               
+
     }
 
-    .overlay-content a{
+    .overlay-content a {
         padding: 16px;
         text-decoration: none;
         color: #0062b9;
         display: block;
         font-size: 32px;
         transition: 0.3s;
+
     }
 
-    .overlay-content a:hover, .overlay-content a:focus{
+    .overlay-content a:hover,
+    .overlay-content a:focus {
         color: black;
     }
-    
-    .closeBtn{
+
+    .closeBtn {
         text-align: center;
         justify-content: center;
         top: 25%;
@@ -161,46 +164,46 @@ ul {
         margin-left: 80%;
         font-size: 60px;
     }
-    .closeBtn:hover{
-        cursor: pointer;
-       color: black;
+
+    .closeBtn:hover {
+        color: black;
 
     }
 
-    
-@media only screen and (max-width: 600px) {
-    .navbar .navbar_itens .navbar_link {
-        display: none;
-    }
 
-    
-    .closeBtn{
-        font-size: 50px;
-    }
+    @media only screen and (max-width: 600px) {
+        .navbar .navbar_itens .navbar_link {
+            display: none;
+        }
 
 
-    .overlay-content a{
-        font-size: 25px;
-    }
-
-}
+        .closeBtn {
+            font-size: 50px;
+        }
 
 
-@media only screen and (max-width: 450px) {
-    .navbar .navbar_itens .navbar_link {
-        display: none;
-    }
+        .overlay-content a {
+            font-size: 25px;
+        }
 
-    .closeBtn{
-        font-size: 40px;
     }
 
 
-    .overlay-content a{
-        font-size: 20px;
-    }
+    @media only screen and (max-width: 450px) {
+        .navbar .navbar_itens .navbar_link {
+            display: none;
+        }
 
-}
+        .closeBtn {
+            font-size: 40px;
+        }
+
+
+        .overlay-content a {
+            font-size: 100%;
+        }
+
+    }
 
 }
 
@@ -215,17 +218,29 @@ ul {
 /*================================================*/
 /*                   BODY                        */
 
-main{
+main {
     background-image: url;
     width: 100%;
-    height: 100%;
+    height: 100vh;
     background-size: 100%;
+
 }
+
+main .fundo_inicial {
+    width: 100%;
+    height: 100%;
+    background-size: auto;
+    background-image: url(../assets/logo.JPG);
+    background-repeat: no-repeat;
+    background-color: #0062b9;
+    background-position: 50% 10%;
+}
+
 #trabalhos {
     margin: auto;
     width: 80%;
     height: auto;
-    
+
     display: flex;
     align-items: center;
     flex-direction: row;
@@ -235,7 +250,7 @@ main{
     margin: auto;
     width: 80%;
     height: auto;
-   
+
     display: flex;
     align-items: center;
     flex-direction: row;
@@ -246,7 +261,7 @@ main{
     margin: auto;
     width: 80%;
     height: auto;
-   
+
     display: flex;
     align-items: center;
     flex-direction: row;
