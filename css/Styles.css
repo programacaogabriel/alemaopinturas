@@ -47,7 +47,7 @@ ul {
     padding: 1rem 0;
     display: flex;
     text-decoration: none;
-    font-family: Abel, cursive;
+    font-family: 'Open Sans', sans-serif;
     color: blue;
 }
 
@@ -130,6 +130,7 @@ ul {
         overflow-x: hidden;
         transition: all 0.7s;
         border-end-end-radius: 10%;
+        
     }
 
     .overlay-content {
@@ -137,7 +138,7 @@ ul {
         justify-content: center;
         top: 25%;
         margin-top: 20px;
-        margin-left: 65%;
+        margin-left: 52%;
 
     }
 
@@ -148,6 +149,8 @@ ul {
         display: block;
         font-size: 32px;
         transition: 0.3s;
+        padding:25%;
+       
 
     }
 
@@ -162,7 +165,7 @@ ul {
         top: 25%;
         margin-top: 55px;
         margin-left: 80%;
-        font-size: 60px;
+        font-size: 62px;
     }
 
     .closeBtn:hover {
@@ -200,7 +203,7 @@ ul {
 
 
         .overlay-content a {
-            font-size: 100%;
+            font-size: 120%;
         }
 
     }
