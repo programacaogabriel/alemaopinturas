@@ -33,17 +33,18 @@ ul {
 /*                   NAVEBAR                      */
 
 
+
 .navbar {
     padding: 0 2rem;
     height: 0rem;
     min-height: 12vh;
     overflow: hidden;
-
+    height: auto;
 }
 
 
 .navbar .nav-logo a {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     padding: 1rem 0;
     display: flex;
     text-decoration: none;
@@ -51,6 +52,7 @@ ul {
     color: white;
     padding: 5px;
     margin-left: 150px;
+    margin-top: 10px;
 }
 
 .navbar .navbar-menu {
@@ -98,6 +100,8 @@ ul {
     color: white;
     background-color: pink;
     margin-top: 50px;
+    margin-left: 5px;
+    position: absolute;
 }
 
 /*================================================*/
@@ -107,7 +111,7 @@ ul {
 /*              Menu Hamburguer                  */
 
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 1100px) {
     .navbar_button {
         display: none;
     }
@@ -117,7 +121,7 @@ ul {
     }
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1100px) {
     .navbar .navbar_itens .navbar_link {
         display: none;
     }
@@ -191,6 +195,13 @@ ul {
         color: black;
 
     }
+    .social{
+        display: block;
+        position: absolute;
+    }
+
+
+}
 
 
     @media only screen and (max-width: 600px) {
@@ -207,9 +218,14 @@ ul {
         .overlay-content a {
             font-size: 25px;
         }
+        
 
     }
 
+    .navbar .nav-logo a {
+
+        margin-left: 100px;
+    }
 
     @media only screen and (max-width: 450px) {
         .navbar .navbar_itens .navbar_link {
@@ -227,7 +243,34 @@ ul {
 
     }
 
-}
+
+    @media only screen and (max-width: 350px) {
+        .navbar .navbar_itens .navbar_link {
+            display: none;
+        }
+
+        .closeBtn {
+            font-size: 40px;
+        }
+
+
+        .overlay-content a {
+            font-size: 120%;
+        }
+
+        .navbar .nav-logo a {
+
+            margin-left: 500px;
+            margin-bottom: 100px;
+            font-size: 1.1rem;
+        }
+
+    }
+
+   
+
+
+
 
 
 
