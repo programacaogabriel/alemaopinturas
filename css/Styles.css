@@ -91,6 +91,8 @@ h1{
 .navbar .navbar_itens .navbar_link a {
 
     color:white;
+    font-family: Anne;
+    font-size: max(25px,1vw);
 }
 
 
@@ -110,10 +112,10 @@ h1{
     width: auto;
     height: auto;
     color: white;
-    background-color: pink;
     margin-top: 50px;
-    margin-left: 5px;
-    position: absolute;
+    text-align: right;
+    position: fixed;
+    font-size: 50px;
 }
 
 /*================================================*/
@@ -210,6 +212,9 @@ h1{
     .social{
         display: block;
         position: absolute;
+        font-size: 35px;
+
+
     }
 
 
@@ -230,7 +235,9 @@ h1{
         .overlay-content a {
             font-size: 25px;
         }
-        
+        .social{
+            font-size: 25px;
+        }
 
     }
 
@@ -257,6 +264,11 @@ h1{
             font-size: max(60px,6vw);
         }
 
+        .social{
+            font-size: 25px;
+        }
+
+
     }
 
 
@@ -280,6 +292,10 @@ h1{
             margin-bottom: 100px;
             font-size: 1.1rem;
         }
+        .social{
+            font-size: 20px;
+        }
+
 
     }
 

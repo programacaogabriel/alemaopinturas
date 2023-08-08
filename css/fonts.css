@@ -26,3 +26,7 @@
     font-family: Morning;
     src: url(../fonts/Mornig/YesterdayMorning_PERSONAL_USE_ONLY.otf);
 }
+@font-face {
+    font-family: Anne;
+    src: url(../fonts/Anne/aAmneSans.ttf);
+}
