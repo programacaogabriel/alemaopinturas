@@ -47,21 +47,22 @@ h1{
 }
 
 .fundo_inicial{
-    opacity: 90%;
     text-align: center;
     align-items: center;
 }
 
 .navbar .nav-logo a {
-    font-size: clamp(1.75em,1em + 3vw,2.5em);
+    /*font-size: clamp(1.75em,1em + 3vw,2.5em);*/
+    font-size: max(35px,6vw);
     padding: 1rem 0;
     display: flex;
     text-decoration: none;
-    font-family: 'Open Sans', sans-serif;
     color: white;
     padding: 5px;
     margin-left: 150px;
     margin-top: 10px;
+    font-family: Morning;
+
 }
 
 .navbar .navbar-menu {
@@ -118,7 +119,7 @@ h1{
 /*              Menu Hamburguer                  */
 
 
-@media only screen and (min-width: 1100px) {
+@media only screen and (min-width: 1216px) {
     .navbar_button {
         display: none;
     }
@@ -128,7 +129,7 @@ h1{
     }
 }
 
-@media only screen and (max-width: 1100px) {
+@media only screen and (max-width: 1216px) {
     .navbar .navbar_itens .navbar_link {
         display: none;
     }
