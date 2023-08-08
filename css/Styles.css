@@ -213,6 +213,7 @@ h1{
         display: block;
         position: absolute;
         font-size: 35px;
+        position: fixed;
 
 
     }
