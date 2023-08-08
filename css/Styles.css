@@ -51,18 +51,22 @@ h1{
     align-items: center;
 }
 
+.navbar .nav-logo {
+    margin-left: -50px;
+}
+
 .navbar .nav-logo a {
     /*font-size: clamp(1.75em,1em + 3vw,2.5em);*/
-    font-size: max(35px,6vw);
+    font-size: max(60px,6vw);
     padding: 1rem 0;
     display: flex;
     text-decoration: none;
     color: white;
     padding: 5px;
-    margin-left: 150px;
     margin-top: 10px;
     font-family: Morning;
-
+    width: auto;
+    height: auto;
 }
 
 .navbar .navbar-menu {
@@ -247,6 +251,10 @@ h1{
 
         .overlay-content a {
             font-size: 120%;
+        }
+
+        .navbar .nav-logo a {
+            font-size: max(52px,6vw);
         }
 
     }
