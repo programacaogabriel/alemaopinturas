@@ -390,4 +390,31 @@ font-size: max(16px,2vw);
 }
 
 
+
+.secao2{
+    border-top: 2px solid #0062b9;
+}
+
+.secao2 img {
+    width: 80%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+
+.secao3{
+border-top: 2px solid #0062b9;
+}
+
+.secao3 img {
+    width: 80%;
+    margin-bottom: 10px;
+}
+
+.secao3 h1{
+    font-size: max(20px,2vw);
+    padding: 0px;
+
+}
+
 /*================================================*/
