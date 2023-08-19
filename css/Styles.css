@@ -5,7 +5,7 @@ html,
 body {
     margin: 0%;
     box-sizing: border-box;
-    overflow: auto;
+    /*overflow: auto;*/
     scroll-behavior: smooth;
     background-color: black;
     max-width: 100%;
