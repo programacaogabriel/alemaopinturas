@@ -391,7 +391,11 @@ font-size: max(16px,2vw);
 #container button{
 
 
+}
 
+#container img{
+    width: 800px;
+    height: 600px;    
 }
 
 .secao img{

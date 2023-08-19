@@ -18,7 +18,7 @@ function change_img_add(){
     if(number_img < 3){
     number_img += 1;
     }else {
-        number_img = 3
+        number_img = 4
     }
     img.src= "./assets/img" + number_img +".jpeg"
 }
