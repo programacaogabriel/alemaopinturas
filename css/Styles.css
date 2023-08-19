@@ -9,6 +9,7 @@ body {
     scroll-behavior: smooth;
     background-color: black;
     max-width: 100%;
+    text-align: center;
 }
 
 /*================================================*/
@@ -28,6 +29,12 @@ ul {
 }
 h1{
     font-size: clamp(1.75em,1em + 3vw,2.5em);
+    text-align: center;
+    align-items: center;
+}
+
+p{
+    font-size: clamp(1em,1em + 1vw,1.25em);
 }
 
 /*================================================*/
@@ -57,8 +64,12 @@ h1{
 .fundo_inicial h1{
     margin-left: 5px;
     margin-right: 5px;
-    
-    
+    font-family: Anne;      
+    font-size: 50px;
+}
+
+.secao{
+    font-family: Anne;
 }
 
 .navbar .nav-logo {
