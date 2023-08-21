@@ -1,4 +1,4 @@
-![ cabeçalho](https://github.com/programacaogabriel/alemaopinturas.com.br/tree/main/assets/screen.jpeg)
+![ cabeçalho](https://github.com/programacaogabriel/alemaopinturas.com.br/blob/main/assets/screen.jpeg)
 
 
 <h1 align="center">Alemão Pinturas </h1>
