@@ -8,6 +8,8 @@ function closeNav(params) {
     document.getElementById("closed").style.width="0%"
 }
 
+
+
 /* Troca de imagens*/
 
 var number_img = 1;
